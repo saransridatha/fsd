@@ -6,7 +6,7 @@
 # Build artifacts
 /dist
 /exp0/dist
-/exp1/dist
+#/exp1/dist
 
 # Logs
 npm-debug.log*
