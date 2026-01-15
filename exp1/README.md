@@ -1,18 +1,8 @@
-# React + Vite
+# Learnings from a Simple React SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple single-page application (SPA) built with React and Vite. It demonstrates the following concepts:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Project Setup with Vite:** The project was initialized and set up using Vite, a modern and fast build tool for web development.
+- **Single-Page Application (SPA) with React Router:** The application uses `react-router-dom` to create a single-page experience. This allows for navigation between different "pages" (components) without a full page reload.
+- **Component-Based Architecture:** The application is structured into different components (`Home`, `About`, `Contact`), which is a core concept in React development.
+- **Production Build:** A production-ready build of the application was created using `npm run build`, which bundles and optimizes the code for deployment.
