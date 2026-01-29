@@ -2,12 +2,16 @@
 /node_modules
 /exp0/node_modules
 /exp1/node_modules
-
+/exp2/node_modules
+/exp3/node_modules
+/exp4/node_modules
 # Build artifacts
 /dist
 /exp0/dist
-#/exp1/dist
-
+/exp1/dist
+/exp2/dist
+/exp3/dist
+/exp4/dist
 # Logs
 npm-debug.log*
 yarn-debug.log*
